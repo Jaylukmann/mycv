@@ -1,0 +1,164 @@
+body{
+    padding:0px;
+    margin:0px;
+    background: #b2beb5 ;
+    background: #e8e8e8 ;
+    }
+    .overallcontainer{
+        margin-left: 100px;
+    }
+    .info:nth-child(2){
+        margin-left:100px;
+    }
+p{
+    padding:0px;
+    margin:0px;
+    font-family: 'monospace';
+}
+.myimage{
+    border-radius: 60%;
+}
+.container{
+	display:flex;
+    flex-wrap: wrap;
+    padding:7px 0 0 7px;
+}
+.info{
+	flex: 1;
+	justify-content:center;
+	align-items: center;
+}
+.container2{
+	display:flex;
+    padding:7px 0 0 7px;
+    margin-left: 100px;
+}
+.info2{
+	flex: 1;
+	justify-content:center;
+	align-items: center;
+}
+.info2:nth-child(2){
+    margin-left:100px;
+}
+h1,p{
+    display: inline-block;
+}
+.name{
+    padding-bottom: 15px;
+    float: inherit;
+    color:green;
+    text-align: center;
+    padding-top: -200px; 
+    font-family:'Lobster';
+}
+.address{
+    padding-top:50px;
+}
+.title{
+    color:green;
+}
+
+.info1{
+    margin: 40px 0 0 500px;
+    border: 1px solid #ccc;
+    padding: 20px 0 0  30px;
+    background: #e5e5e5;
+    border-radius: 10px;
+    background: #fff;
+    width: 25%;
+    z-index: 20;
+}
+.myform{
+    box-sizing: border-box;
+    display: flex;
+    padding: 5px 0 0 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 1px solid #fff;
+}
+.form-wrapper{
+    background:#fff;
+}
+
+ .contact{
+    background: green;
+    color:#fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    height:40px;
+    justify-content: center;
+    font-size: 1.8em;
+}
+#contact{
+    background: green;
+    color:#fff;
+}
+
+.submit{
+    background: green;
+    color:#fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    height:40px;
+    justify-content: center;
+    font-size: 1.8em;
+}
+#submit{
+    background: green;
+    color:#fff;
+}
+label{
+    color:green;
+    font-weight: bold;
+}
+footer{
+    background: #000;
+    color:#fff;
+
+}
+a:link{
+    text-decoration: none;
+    cursor:pointer;
+    color: green;
+}
+#contact1{
+    text-decoration: none;
+    cursor:pointer;
+    color:green;
+
+}
+.center{
+    text-align: center;
+}
+#result{
+    color:red;
+}
+#result1{
+    color:red;
+}
+#result2{
+    color:red;
+}
+#result3{
+    color:red;
+}
+#result4{
+    color:red;
+}
+
+
+@media screen and (max-width: 480px) {
+    .container2{
+        display:block;
+      }
+    .container{
+      display:block;
+    }
+    .firstContainer{
+        display:flex;
+        flex-wrap: wrap;
+    }
+  }
