@@ -158,7 +158,7 @@ a:link{
       display:block;
     }
     .firstContainer{
-        display:flex;
-        flex-wrap: wrap;
+        display:block;
+      
     }
   }
