@@ -76,7 +76,6 @@ h1,p{
 
 .myform{
     box-sizing: border-box;
-    display: flex;
     padding: 5px 0 0 20px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -156,12 +155,19 @@ a:link{
 
 
 @media screen and (max-width: 480px) {
-    
+	
+    .overallcontainer1{
+      display:block;
+    }
+	
     .container{
       display:block;
     }
 	 
     .container1{
+      display:block;
+    }
+	.container2{
       display:block;
     }
 	
