@@ -158,30 +158,28 @@ a:link{
 	
     .overallcontainer1{
       display:flex;
+     flex-gap:10px;
      flex-direction:column;
     }
 	
     .container{
     
    display: flex;
+  flex-gap:10px;
    flex-direction: column;
     }
 	 
     .container1{
      
    display: flex;
+  flex-gap:10px;
    flex-direction: column;
     }
 	.container2{
   
    display: flex;
+   flex-gap:10px;
    flex-direction: column;
     }
 	
-    .firstContainer{
-        
-   display: flex;
-   flex-direction: column;
-      
-    }
   }
