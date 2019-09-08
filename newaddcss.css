@@ -5,6 +5,7 @@ body{
     background: #e8e8e8 ;
     }
     .overallcontainer{
+	    display:flex;
         margin-left: 100px;
     }
     .info:nth-child(2){
