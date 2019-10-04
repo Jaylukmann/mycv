@@ -7,8 +7,12 @@ function validate(){
    
 
   
-    if(name.length = 0 || name.length < 4){
+    if(name.length < 4){
     document.getElementById('result1').textContent= "A user's name cannot be less than 4 characters";
+    return false;
+    }
+    else if(name.length = 0){
+    document.getElementById('result1').textContent= "";
     return false;
     }
 
