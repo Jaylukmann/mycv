@@ -15,6 +15,10 @@ function validate(){
     document.getElementById('result1').textContent= "";
     return false;
     }
+     else if(email.value === "" || email.value == null){
+        errorMsg.textContent = "Email is required ";
+    return false
+    } 
 
    else if ((email.indexOf('@') == 0) && (email.indexOf('@') < 4)) {
         document.getElementById('result2').textContent = "Invalid @ Position";
@@ -30,13 +34,19 @@ function validate(){
         document.getElementById('result2').textContent = "Invalid email pattern";
         return false
         }
-     
-
-      
+     else if(title.value === "" || title.value == null){
+        errorMsg.textContent = "Title is required ";
+    return false
+    }
+       
     else if((title.length > 0 )  && (title.length < 4)){
         document.getElementById('result3').textContent= "Title cannot be less than 4 characters";
         return false;
         }
+     else if(message.value === "" || message.value == null){
+        errorMsg.textContent = "Email is required ";
+    return false
+    }
 
         else if((message.length > 0) && (message.length < 20)){
             document.getElementById('result4').textContent = "Message cannot be less than 20 characters";
