@@ -6,11 +6,8 @@ function validate(){
     
    
 
-    if(name == ""  || email == "" || title =="" || message ==""){
-        document.getElementById('result').textContent= "All field is required";
-        return false;
-        }
-    if(name.length > 0 && name.length < 4){
+  
+    if(name.length = 0 || name.length < 4){
     document.getElementById('result1').textContent= "A user's name cannot be less than 4 characters";
     return false;
     }
